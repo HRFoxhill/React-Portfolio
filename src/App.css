@@ -1,0 +1,133 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+
+@media only screen and (max-width: 799px) {
+    .hidechart {
+        display: none;
+    }
+}
+
+.chartBackground{
+  background-image: url("./images/otherimages/lightwood.jpg");
+  max-width: 900px;
+}
+
+.recharts-wrapper{
+  margin: auto;
+}
+
+body {
+  background-image: url("./images/otherimages/codingmist.jpg");
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Cinzel", cursive;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  font-weight: bold;
+  color: darkred;
+  font-size: large;
+  font-family: "Cinzel", cursive;
+}
+
+footer {
+  border-top: 2px solid grey;
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  background-image: url("./images/otherimages/blackwoodbackground.jpg");
+}
+
+footer img {
+  width: 25px;
+}
+
+li {
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+
+.white {
+  background-image: url("./images/otherimages/lightwood.jpg");
+}
+
+.black {
+  background-image: url("./images/otherimages/blackwoodbackground.jpg");
+}
+
+/* card flip transformation - needs development if to be used */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+  margin: auto;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 250px;
+	height: 250px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+  margin: auto;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+/* for AntD Carousel */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 350px;
+  line-height: 350px;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.ant-carousel img {
+  margin: auto;
+  display: block;
+}

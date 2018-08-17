@@ -1,0 +1,60 @@
+{
+  "name": "react-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.2.3",
+    "chart.js": "^2.7.2",
+    "grid-styled": "^4.1.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "recharts": "^1.0.0-beta.10",
+    "styled-components": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-xo-react": "^0.16.0",
+    "eslint-plugin-react": "^7.8.2",
+    "gh-pages": "^1.1.0",
+    "lint-staged": "^7.1.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.12.1",
+    "react-scripts": "1.0.10",
+    "xo": "^0.21.1"
+  },
+  "scripts": {
+    "start": "set PORT=4000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint-staged": "lint-staged",
+    "lint": "xo --prettier"
+  },
+  "eslintConfig": {
+    "extends": ["xo", "xo-react"]
+  },
+  "lint-staged": {
+    "**/*.js": ["xo --prettier", "git add"]
+  },
+  "precommit": {
+    "run": ["lint-staged"]
+  },
+  "xo": {
+    "env": ["browser", "node"],
+    "extends": ["xo-react"],
+    "plugins": ["unicorn"],
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/filename-case": ["warning", { "case": "pascalCase" }]
+    }
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "singleQuote": false
+  },
+  "homepage": "https://github.com/HRFoxhill/React-Portfolio"
+}
