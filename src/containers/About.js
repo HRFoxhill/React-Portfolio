@@ -1,22 +1,17 @@
 import React, { Component } from "react";
 import { Flex, Box } from "grid-styled";
 import styled from "styled-components";
-import { Carousel } from 'antd'
-
-import Heather1 from "../images/about/breakthrough.jpg";
-import Heather2 from "../images/about/kasperlookoutwindow.jpg";
-import Heather3 from "../images/about/hawaii.jpg";
-
-import  winter from "../images/about/walk in the snow.jpg";
-import halloween from "../images/about/chaplinHalloween.jpg";
+import { Carousel } from 'antd';
+import hawaii from "../images/about/hawaii.jpg";
+import winter from "../images/about/walk in the snow.jpg";
 import pups from "../images/about/pupsswim.jpg";
-import sushi from "../images/about/seriousSushi.jpg";
-import climbing from "../images/about/rockclimbing.jpg";
-import xbox from "../images/about/Xboxlogo.png";
-// import netflix from "../images/about/.png";
+import potter from "../images/codememes/harrypotterpython.jpg";
+import optimist from "../images/codememes/optimistpessimistglass.PNG";
+import scare from "../images/codememes/programmersscareeasily.PNG";
+import why from "../images/codememes/whencodeworkswhy.PNG";
 
 const Title = styled.h3`
-  color: white;
+  color: white;/
   padding: 20px;
   margin-left: 0.3em;
   margin-right: 0.3em;
@@ -98,26 +93,23 @@ class About extends Component {
                 <Title>About</Title>
               </Box>
               <Box width={[1, 1/2, 1/3]}>
-                <Thumbnail src={Heather1}></Thumbnail>
+                <Thumbnail src={hawaii}></Thumbnail>
               </Box>
               <Box width={[1, 1/2, 1/3]}>
-                <Thumbnail src={Heather2}></Thumbnail>
+                <Thumbnail src={pups}></Thumbnail>
               </Box>
               <Box width={[1, 1/3]}>
-                <Thumbnail src={Heather3}></Thumbnail>
+                <Thumbnail src={winter}></Thumbnail>
               </Box>
               <Box width={1}>
                 <div className="hidechart">
                   <Spacer>
                     <Carousel autoplay>
                        <div><h1>Some Hobbies:</h1></div>
-                       <div><CaroImage src={pups}></CaroImage></div>
-                       <div><CaroImage src={halloween}></CaroImage></div>
-                       <div><CaroImage src={winter}></CaroImage></div>
-                       <div><CaroImage src={climbing}></CaroImage></div>
-                       {/* <div><CaroImage src={netflix}></CaroImage></div> */}
-                       <div><CaroImage src={xbox}></CaroImage></div>
-                       <div><CaroImage src={sushi}></CaroImage></div>
+                       <div><CaroImage src={potter}></CaroImage></div>
+                       <div><CaroImage src={optimist}></CaroImage></div>
+                       <div><CaroImage src={scare}></CaroImage></div>
+                       <div><CaroImage src={why}></CaroImage></div>
                      </Carousel>
                    </Spacer>
                  </div>
@@ -128,8 +120,8 @@ class About extends Component {
                     <Subtitle>Me, Myself and I</Subtitle>
                     <b><Text>Heather Foxhill</Text></b>
                     <br />
-                    <Text>Tag line goes here <br />
-                     Insert info about exposure to tech
+                    <Text>"Life isn't about waiting for the storm to pass, it's about learning to dance in the rain!" <br />
+                     
                      <br /><br />
                       <NBList>
                         <li><Red>Age 8</Red>: </li>

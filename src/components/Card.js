@@ -84,7 +84,7 @@ class Card extends Component {
         <br />
         {this.props.code ? (
           <div>
-            <Linkage href={this.props.code}>Access Code</Linkage>
+            <Linkage href={this.props.code}>Check it out!</Linkage>
           </div>
         ) : null}
         <br />

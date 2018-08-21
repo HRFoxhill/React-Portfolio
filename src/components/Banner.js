@@ -77,9 +77,9 @@ class Banner extends Component {
               <List>
                 <li>Certificate of Completion in FullStack Web Development (2018)</li>
                 <br />
-                <li>Junior Level completion of BA in Business Administration (in-progress)</li>
+                <li> BA in Business Administration (Junior Level completion)</li>
                 <br />
-                <li>High School Diploma (2004)</li>
+                <li></li>
               </List>
             </Wrapper>
           </Box>

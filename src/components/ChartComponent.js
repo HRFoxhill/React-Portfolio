@@ -4,11 +4,10 @@ import { Flex, Box } from "grid-styled";
 
 import Chart from "./Chart";
 
-
 const Outter = styled.div`
   border: 2px solid grey;
   padding-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 15px;
 `;
 
 const Wrapper = styled.div`

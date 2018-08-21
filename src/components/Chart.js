@@ -8,12 +8,12 @@ const Wrapper = styled.div`
 
 const data = [
   { name: "React/JSX", value: 30 },
-  { name: "Python", value: 30 },
-  { name: "JavaScript", value: 15 },
-  { name: "Scala", value: 15 },
-  { name: "Java", value: 10 },
-  { name: "SQL/Redis", value: 10 },
-  { name: "Bash", value: 5 },
+  { name: "HTML/JS/CSS", value: 15 },
+  { name: "JavaScript", value: 30 },
+  { name: "NPM", value: 10 },
+  { name: "Node", value: 15 },
+  { name: "Visual Studio", value: 5 },
+  { name: "Bash", value: 10 },
   { name: "MongoDB", value: 5 }
 ];
 
@@ -78,7 +78,7 @@ const renderActiveShape = props => {
         y={ey}
         textAnchor={textAnchor}
         fill="#333"
-      >{`Confidence Value ${value}`}</text>
+      >{`% of Skill Value ${value}`}</text>
       <text
         x={ex + (cos >= 0 ? 1 : -1) * 12}
         y={ey}
@@ -101,26 +101,26 @@ class Chart extends Component {
     this.onPieEnter = this.onPieEnter.bind(this);
   };
 
-  // broken since adding lint///
-  //
+
   onPieEnter(data, index){
     this.setState({
       activeIndex: index,
     });
+    return data;
   }
 
   render() {
     return (
       <Wrapper>
-        <PieChart width={600} height={400}>
+        <PieChart width={700} height={500}>
           <Pie
             activeIndex={this.state.activeIndex}
             activeShape={renderActiveShape}
             data={data}
-            cx={300}
-            cy={200}
-            innerRadius={60}
-            outerRadius={90}
+            cx={325}
+            cy={250}
+            innerRadius={120}
+            outerRadius={180}
             fill="#8884d8"
             onMouseEnter={this.onPieEnter}
             paddingAngle={5}

@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { Flex, Box } from "grid-styled";
 import styled from "styled-components";
-
-// import twitter from "../images/contact/twitter.png";
 import linkedin from "../images/contact/linkedin.png";
 import github from "../images/contact/github.png";
-// import instagram from "../images/contact/instagram.png";
 import gmail from "../images/contact/gmail.png";
 
 const Title = styled.h3`
@@ -37,45 +34,39 @@ const Thumbnail = styled.img`
   max-height: 200px;
   padding: 3em;
   -webkit-filter: grayscale(0.5);
-  &:hover{
+  &:hover {
     -webkit-filter: grayscale(0);
   }
-`
+`;
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <br/>
+        <br />
         <Wrapper>
           <div className="black">
             <Flex flexWrap="wrap">
               <Box width={1}>
                 <Title>Contact</Title>
               </Box>
-              <Box width={[1, 1/5]}>
+              <Box width={[1, 1 / 3]}>
                 <ThumbWrapper className="white">
-                  <a href="https://www.linkedin.com/in/heather-foxhill-2b5309a/"><Thumbnail src={linkedin}/></a>
+                  <a href="https://www.linkedin.com/in/heather-foxhill-2b5309a/">
+                    <Thumbnail src={linkedin} />
+                  </a>
                 </ThumbWrapper>
               </Box>
-              <Box width={[1, 1/5]}>
+              <Box width={[1, 1 / 3]}>
                 <ThumbWrapper className="white">
-                    <a href="https://github.com/HRFoxhill"><Thumbnail src={github}/></a>
+                  <a href="https://github.com/HRFoxhill">
+                    <Thumbnail src={github} /></a>
                 </ThumbWrapper>
               </Box>
-              {/* <Box width={[1, 1/5]}>
+              <Box width={[1, 1 / 3]}>
                 <ThumbWrapper className="white">
-                    <a href="https://twitter.com/"><Thumbnail src={twitter}/></a>
-                </ThumbWrapper>
-              </Box> */}
-              {/* <Box width={[1, 1/5]}>
-                <ThumbWrapper className="white">
-                    <a href="https://www.instagram.com//"><Thumbnail src={instagram}/></a>
-                </ThumbWrapper>
-              </Box> */}
-              <Box width={[1, 1/5]}>
-                <ThumbWrapper className="white">
-                    <a href="mailto:HeatherRFoxhill@gmail.com"><Thumbnail src={gmail}/></a>
+                  <a href="mailto:HeatherRFoxhill@gmail.com">
+                    <Thumbnail src={gmail} /></a>
                 </ThumbWrapper>
               </Box>
             </Flex>

@@ -66,7 +66,7 @@ const NavBar = () => (
         <Linkage to="/react-portfolio/projects">Projects</Linkage>
       </Boxage>
       <Boxage px={2} py={3} width={[1, 1 / 5]}>
-        <Linkage to="/react-portfolio/publications">Publications</Linkage>
+        <Linkage to="/react-portfolio/resume">Resume</Linkage>
       </Boxage>
       <Boxage px={2} py={3} width={[1, 1 / 5]}>
         <Linkage to="/react-portfolio/contact">Contact</Linkage>
