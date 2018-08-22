@@ -11,7 +11,7 @@ import bootstrap from "../images/skills/frontend/bootstrap.png";
 import react from "../images/skills/frontend/react.png";
 import npm from "../images/skills/frontend/npm.png";
 import yarn from "../images/skills/frontend/yarn.png";
-import redux from "../images/skills/frontend/redux.png";
+import handlebars from "../images/cardicons/handlebars.png";
 import node from "../images/skills/frontend/node.png";
 import java from "../images/skills/backend/java.png";
 import express from "../images/skills/backend/express.png";
@@ -52,26 +52,26 @@ class Home extends Component {
             {
               image: bootstrap,
               subtitle: "Bootstrap",
-              text: "I can do Bootstrap me"
+              text: "I can utilize bootstrap for ease of formatting and beautiful, simple, webpage front end management"
             },
-            { image: react, subtitle: "React", text: "I can do React me" },
-            { image: redux, subtitle: "Redux", text: "I can do Redux me" },
+            { image: react, subtitle: "React", text: "I can utilize react for easy front and backend management, development and clean coding" },
+            { image: handlebars, subtitle: "HandleBars", text: "I utilize handlebars to structure code in a meaningful and well documented format for ease of release." },
             {
               image: htmlcssjs,
               subtitle: "HTML/CSS/JS",
-              text: "I can do WebDev me"
+              text: "Utilizeing HTML, CSS and JS I can develope simple and complex code in an easily readable format that allows for the intigration of most packages, modules and functionalities."
             },
             {
               image: npm,
               subtitle: "Node Package Manager",
-              text: "I can do node management me"
+              text: "NPM is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry."
             },
             {
               image: yarn,
               subtitle: "Yarn",
-              text: "I can do Yarn Package Management me"
+              text: "I can use Yarn to manage packages and explore new and more viable functionalities for better apps and programs"
             },
-            { image: node, subtitle: "Node", text: "I can do a Node me" }
+            { image: node, subtitle: "Node", text: "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications." }
           ]}
         />
 
@@ -82,7 +82,7 @@ class Home extends Component {
             {
               image: express,
               subtitle: "Express",
-              text: "I can do an express"
+              text: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
             }
           ]}
         />
@@ -93,12 +93,12 @@ class Home extends Component {
             {
               image: adwords,
               subtitle: "Google AdWords",
-              text: "I can add words"
+              text: "I can utilize graphic display ads, YouTube video ads, text-based search ads, or in-app mobile ads, to reach customers with Google Ads."
             },
             {
               image: analytics,
               subtitle: "Google Analytics",
-              text: "I can analytic"
+              text: "I can use Google Analytics to Understand site and app users to better evaluate the performance of marketing, content, products, and more."
             }
           ]}
         />

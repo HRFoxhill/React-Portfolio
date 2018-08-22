@@ -13,6 +13,7 @@ import htmlcssjs from "../images/cardicons/htmlcssjs.png";
 import js from "../images/cardicons/js.png";
 import bulma from "../images/cardicons/bulma-logo.png";
 import passport from "../images/cardicons/passport.png";
+import mochaChai from "../images/skills/devops/MochaChai.png";
 
 const Title = styled.h3`
   color: white;
@@ -41,22 +42,14 @@ class Projects extends Component {
               <Box width={1}>
                 <Title>Projects</Title>
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              {/* <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title=""
                 summary=""
                 code=""
                 images={[]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
-                <Card
-                title=""
-                summary=""
-                code=""
-                project=""
-                images={[react]} />
-              </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title=""
                 summary=""
@@ -64,47 +57,47 @@ class Projects extends Component {
                 project=""
                 images={[react, node, heroku, trello]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title=""
                 summary=""
                 code=""
                 images={[]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title=""
                 summary=""
                 code=""
                 images={[js]} />
-              </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              </Box> */}
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
-                title=""
-                summary=""
-                code=""
-                images={[htmlcssjs]} />
+                title="Eat Da Burger"
+                summary="Simple App built to add, track and delete burgers as they are ordered and devoured. 2 day assignment turn around"
+                code="https://eatdaburgerhrf.herokuapp.com/"
+                images={[htmlcssjs, handlebars, node, heroku, bootstrap]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title="Karma Community App"
-                summary="Handlebars, Node and Express based App using JawsDB and Heroku Deployment."
+                summary="Handlebars, Node and Express based App using JawsDB and Heroku Deployment. 5 day assignment turn around"
                 code="https://hrfoxhill.github.io/Project2/index.html"
                 images={[node, heroku, trello, handlebars, bulma]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title="React-Clicky-Game"
-                summary="Class activity to create a React memory clicky game."
+                summary="Class activity to create a React memory clicky game. 3 day assignment turn around"
                 code="https://hrfoxhill.github.io/React-Clicky-Game/"
-                images={[node, react, heroku, bootstrap]} />
+                images={[node, react, heroku, bootstrap, js]} />
               </Box>
-              <Box px={2} py={1} width={[1, 1 / 2, 1 / 3]}>
+              <Box px={2} py={1} width={[1, 1 / 2, 1 / 2]}>
                 <Card
                 title="Artly"
-                summary="Artist showcase App focused on exposing people to new artists and art forms without fees"
-                code=""
-                images={[node, react, heroku, trello, passport, bulma]} />
+                summary="Artist showcase App focused on exposing people to new artists and art forms. 9 day assignment turn around."
+                code="https://hrfoxhill.github.io/project3/"
+                images={[node, react, heroku, trello, passport, bulma, mochaChai, js]} />
               </Box>
               <br />
               <br />

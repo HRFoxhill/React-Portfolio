@@ -124,17 +124,18 @@ class About extends Component {
                      
                      <br /><br />
                       <NBList>
-                        <li><Red>Age 8</Red>: </li>
-                        <li><Red>Age 16</Red>: </li>
-                        <li><Red>Age 20</Red>: Studying Business Administration and Project Management</li>
-                        <li><Red>Age 24</Red>: Learning to use a new tech, SAAS and client interaction</li>
-                        <li><Red>Age 28</Red>: Exposure to internal product development and UX</li>
-                        <li><Red>Age 32</Red>: Moving on - Bootcamp</li>
+                        <li><Red>Age 16</Red>: Accepted into private High School for Junior and Senior College Preperatory. Assisted in the founding of 9g Enterprises.</li>
+                        <li><Red>Age 17</Red>: Accepted to 6 Universities including Scholarship to Iowa State University ROTC. Continued support work for 9g Enterprises.</li>
+                        <li><Red>Age 18</Red>: GAP year to work and completed 6 Month program at the Florida Health Academy. Accepted to McMurry University Fall 2005</li>
+                        <li><Red>Age 20</Red>: Studying Business Administration and Project Management at McMurry University. Co-founded SurveyVitals which replaced 9g Enterprises.</li>
+                        <li><Red>Age 22</Red>: SurveyVitals has taken off, working 50 hour weeks and have transitioned to full-time Client Services and Sales.</li>
+                        <li><Red>Age 28</Red>: Directing Client Services and Sales and gaining exposure to internal product development and UX</li>
+                        <li><Red>Age 32</Red>: Decision to make a change away from SurveyVitals after 16 years. Looking for something new and exciting!</li>
                        
                       </NBList>
                     </Text>
                     <br />
-                    <Text>In short: <Red>I'm an excited learner, early full-stack web developer and avid team player</Red></Text>
+                    <Text>In short: <Red>I'm an excited learner, early full-stack web developer and avid team player with ample experience in project management, team leadership and creative learning!</Red></Text>
                   </Intro>
                 </Section>
               </Box>
